@@ -1,0 +1,14 @@
+[
+  {
+          "RunFlag" : "yes",
+          "GitRepo" : "git@github.com:SharkierJ/test-docker-versioning.git",
+          "DockerServiceName" : "sharkierj/version-test",
+          "ServiceVersion" : "1.3"
+  },
+  {
+           "RunFlag" : "yes",
+           "GitRepo" : "git@github.com:SharkierJ/second-service.git",
+           "DockerServiceName" : "sharkierj/second-service",
+           "ServiceVersion" : "1.0"
+  }
+]
