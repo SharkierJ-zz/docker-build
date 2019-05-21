@@ -1,3 +1,13 @@
-[{
-          "GitRepo" : "git@github.com:SharkierJ/test-docker-versioning.git"
-}]
+{
+  "sharkierj/version-test": {
+    "GitRepo": "git@github.com:SharkierJ/test-docker-versioning.git",
+    "VersionVariable": "SJ_SERVICE_1",
+    "DockerBuild": "docker build -t $servicename:$tag ."
+  },
+  "sharkierj/second-service": {
+    "GitRepo": "git@github.com:SharkierJ/second-service.git",
+    "VersionVariable": "SJ_SERVICE_2",
+    "DockerBuild": "docker build -t $servicename:$tag ."
+  }
+}
+
